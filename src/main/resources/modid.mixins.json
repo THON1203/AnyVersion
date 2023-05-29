@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "uk.co.xsc.mixin",
+  "package": "av.av.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
