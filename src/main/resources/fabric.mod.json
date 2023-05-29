@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "av",
+  "version": "1",
+
+  "name": "AV (AnyVersion)",
+  "description": "This is a mod that makes it available for a mod on any version to be applied",
+  "authors": [
+    "THON1203"
+  ],
+  "contact": {
+    "sources": "https://github.com/THON1203/AV-AnyVersion"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "av.av.Main"
+    ],
+    "client": [
+      "av.av.ClientModInitializer"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": "*",
+    "fabric": "*"
+  },
+  "suggests": {
+    "viafabric": "*",
+    "viabackwards": "*",
+    "viarewind": "*"
+  }
+}

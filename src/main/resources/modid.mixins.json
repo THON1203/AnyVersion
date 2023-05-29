@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "uk.co.xsc.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
