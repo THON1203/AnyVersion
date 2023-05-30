@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "av",
-  "version": "1",
+  "id": "test_mod",
+  "version": "${version}",
 
-  "name": "AV (AnyVersion)",
-  "description": "This is a mod that makes it available for a mod on any version to be applied",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "THON1203"
+    "Me!"
   ],
   "contact": {
-    "sources": "https://github.com/THON1203/AV-AnyVersion"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
@@ -18,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "av.av.Main"
+      "uk.co.xsc.TestMod"
     ],
     "client": [
-      "av.av.ClientModInitializer"
+      "uk.co.xsc.ClientModInitializer"
     ]
   },
   "mixins": [
@@ -29,12 +30,10 @@
   ],
 
   "requires": {
-    "fabricloader": "*",
+    "fabricloader": ">=0.4.0",
     "fabric": "*"
   },
   "suggests": {
-    "viafabric": "*",
-    "viabackwards": "*",
-    "viarewind": "*"
+    "flamingo": "*"
   }
 }

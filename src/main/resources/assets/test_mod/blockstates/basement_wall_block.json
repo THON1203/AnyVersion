@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "test_mod:block/basement_wall_block" }
+  }
+}
